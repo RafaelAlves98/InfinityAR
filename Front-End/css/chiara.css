@@ -3,7 +3,7 @@
     display: flex; /* Torna o container um flex container */
     justify-content: space-between; /* Alinha os itens horizontalmente, com espaço entre eles */
     align-items: center; /* Alinha os itens verticalmente ao centro */
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra interna */
+    box-shadow: inset 0 0 px rgba(0, 0, 0, 0.5); /* Sombra interna */
 }
 .about_us{
     margin-top: 20px;
@@ -16,3 +16,24 @@
     color: aliceblue;
 }
 
+.beneficios_conteiner {
+    display: flex; /* Torna o container um flex container */
+    justify-content: space-between; /* Alinha os itens horizontalmente com espaço entre eles */
+    background-color: rgb(0, 65, 139); /* Cor de fundo para visualização */
+    padding: 20px;
+    border-radius: 15px;
+  }
+  
+  .beneficios_text, .beneficios_img {
+    width: 45%; /* Ajuste a largura conforme necessário */
+    padding: 10px; /* Espaçamento interno */
+  }
+
+  .beneficios_text h3, .beneficios_text p{
+    color: aliceblue;
+  }
+
+  .beneficios_img{
+    display: contents;
+    align-items: center;
+  }
