@@ -39,8 +39,55 @@
     display: flex;
     align-items: center;
     width: 60%;
-
   } 
   
-  
+  .btn-top-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+@media (max-width: 768px) {
+    .btn-top-right {
+        top: 10px;
+        right: 10px;
+    }
+
+    .btn-top-right .s-btn {
+        padding: 0.6em 1.2em;
+        font-size: 0.9em;
+    }
+}
+.btn-top-right .s-btn {
+    color: #003366; /* Azul escuro */
+    background-color: transparent;
+  border: none;
+
+}
+.btn-top-right {
+    position: absolute;
+    top: 20px; /* valor ajustado para descer o botão */
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #2674c3; /* azul escuro */
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.btn-top-right .s-btn {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0;
+}
+
+.btn-top-right .s-btn:hover {
+    text-decoration: underline;
+}
+
+
+
 
