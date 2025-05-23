@@ -377,6 +377,12 @@ samp {
     font-family : monospace, monospace;
     font-size   : 1em;
 }
+.s-features .column.lg-12 h2 {
+    text-align: center;
+    font-family: "Roboto";
+    
+}
+
 
 small {
     font-size : 80%;
@@ -427,7 +433,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-    -webkit-appearance : button;
+webkit-appearance : button;
 }
 
 button::-moz-focus-inner,
@@ -764,6 +770,7 @@ textarea {
     flex  : none;
     width : 100%;
 }
+
 
 /* --------------------------------------------------------------------
  * ## medium screen devices 
@@ -1319,7 +1326,7 @@ body {
 /* links
  */
 a {
-    color      : var(--color-1);
+    color      : rgb(36, 229, 255);
     transition : all 0.3s ease-in-out;
 }
 

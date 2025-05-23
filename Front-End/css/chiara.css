@@ -80,12 +80,72 @@
     background-color: transparent;
     border: none;
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     padding: 0;
 }
 
 .btn-top-right .s-btn:hover {
     text-decoration: underline;
+}
+
+/* Formulário de Contato - Infinity AR */
+
+.s-contact h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #003f91;
+  margin-bottom: 40px;
+}
+
+.s-contact form {
+  background: #fff;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.s-contact label {
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.s-contact input,
+.s-contact textarea {
+  font-size: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  transition: border-color 0.3s;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.s-contact input:focus,
+.s-contact textarea:focus {
+  border-color: #003f91;
+  outline: none;
+}
+.s-contact button.s-btn--primary {
+  padding: 14px;
+  font-size: 16px;
+  border-radius: px;
+  background-color: #003f91;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s;
+  align-self: flex-start;
+}
+
+.s-contact button.s-btn--primary:hover {
+  background-color: #002e6d;
 }
 
 
