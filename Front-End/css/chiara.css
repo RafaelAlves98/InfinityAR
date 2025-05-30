@@ -88,37 +88,108 @@
     text-decoration: underline;
 }
 
+
 /* Formulário de Contato - Infinity AR */
 
-.s-contact h2 {
-  text-align: center;
-  font-size: 32px;
-  color: #003f91;
-  margin-bottom: 40px;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  box-sizing: border-box;
 }
 
-.s-contact form {
-  background: #fff;
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  max-width: 600px;
-  width: 100%;
-  margin: 0 auto;
+/* Estilizando a seção pai para centralizar o formulário */
+.s-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e9ecef; /* Cor de fundo da imagem */
+  padding: 20px; /* Espaçamento para evitar colar nas bordas em telas pequenas */
+}
+
+/* Ajustando o layout da row e column */
+.s-contact .row {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.s-contact .column.lg-12 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.s-contact .column.lg-6 {
+  width: 50%;
+  max-width: 600px; /* Mantém a largura máxima do formulário */
+}
+
+/* Estilizando o formulário */
+.s-contact form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaçamento entre os campos */
+}
+
+/* Estilizando os labels */
+.s-contact form label {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilizando os inputs e textarea */
+.s-contact form input,
+.s-contact form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f5f5f5; /* Cor de fundo dos campos, como na imagem */
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.s-contact form textarea {
+  height: 150px;
+  resize: none;
+}
+
+/* Estilizando o botão */
+.s-contact form button.s-btn.s-btn--primary {
+  background-color: #083f88; /* Cor do botão da imagem */
+  color: #fff;
+  padding: 2px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start; /* Alinha o botão à esquerda, como na imagem */
+  font-size: 16px;
+}
+
+/* Ajuste para telas menores */
+@media (max-width: 768px) {
+  .s-contact form {
+      padding: 20px;
+  }
 }
 
 .s-contact label {
   font-weight: 600;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
   color: #333;
 }
 
 .s-contact input,
 .s-contact textarea {
   font-size: 16px;
-  padding: 12px;
+  padding: 7px;
   border-radius: 10px;
   border: 1px solid #ccc;
   margin-bottom: 20px;
@@ -133,10 +204,10 @@
   outline: none;
 }
 .s-contact button.s-btn--primary {
-  padding: 14px;
+  padding: 1 0px;
   font-size: 16px;
-  border-radius: px;
-  background-color: #003f91;
+  border-radius: 2px;
+  background-color: #083f88;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -147,7 +218,25 @@
 .s-contact button.s-btn--primary:hover {
   background-color: #002e6d;
 }
-
-
+.form-message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif; /* Mesma fonte do seu site */
+  white-space: pre-line; /
+}
+.form-message.success {
+  background-color: #d4edda;
+  color: #155724;
+  display: block;
+}
+.form-message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+  display: block;
+}
 
 
