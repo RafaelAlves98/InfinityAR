@@ -1,2 +1,2 @@
 _load "tools/os3dplayer/os3dload.pkg"
-main "teste.xos" "teste" "1280" "720" 0
+main "bomba_centrífuga.xos" "teste" "1280" "720" 0
