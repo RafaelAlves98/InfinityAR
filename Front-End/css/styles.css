@@ -62,6 +62,7 @@
  *      ## screens
  *      ## how-to
  *      ## features
+ 
  * # TESTIMONIALS
  *      ## testimonial slider
  * # PRICING
@@ -376,6 +377,12 @@ samp {
     font-family : monospace, monospace;
     font-size   : 1em;
 }
+.s-features .column.lg-12 h2 {
+    text-align: center;
+    font-family: "Roboto";
+    
+}
+
 
 small {
     font-size : 80%;
@@ -426,7 +433,7 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
-    -webkit-appearance : button;
+webkit-appearance : button;
 }
 
 button::-moz-focus-inner,
@@ -595,25 +602,7 @@ textarea {
 }
 
 
-
-/* ===================================================================
- * # GRID v4.0.0
- *
- *
- *   -----------------------------------------------------------------
- * - Grid breakpoints are based on MAXIMUM WIDTH media queries, 
- *   meaning they apply to that one breakpoint and ALL THOSE BELOW IT.
- * - Grid columns without a specified width will automatically layout 
- *   as equal width columns.
- *
- * - BLOCK GRID columns(columns inside BLOCK GRID containers) are 
- *   equally-sized columns define at parent/row level. 
- *   A BLOCK GRID container's class attribute value begins with "block-".
- *
- * ------------------------------------------------------------------- */
-
-/* row 
- */
+ 
 .row {
     width     : 92%;
     max-width : var(--width-grid-max);
@@ -715,6 +704,7 @@ textarea {
 .lg-6 {
     flex  : none;
     width : 50%;
+    
 }
 
 .lg-7 {
@@ -781,6 +771,7 @@ textarea {
     flex  : none;
     width : 100%;
 }
+
 
 /* --------------------------------------------------------------------
  * ## medium screen devices 
@@ -1336,7 +1327,7 @@ body {
 /* links
  */
 a {
-    color      : var(--color-1);
+    color      : rgb(36, 229, 255);
     transition : all 0.3s ease-in-out;
 }
 
@@ -1410,6 +1401,7 @@ h1,
         line-height : calc(1.875 * var(--space));
     }
 }
+
 
 h2,
 .h2 {
@@ -4067,8 +4059,110 @@ img.u-pull-left {
         padding-top : var(--vspace-4);
     }
 }
+/* ===================================================================
+ * # FEATURES
+ *
+ * ------------------------------------------------------------------- */
+.s-features {
+    padding-top: var(--vspace-5);
+    padding-bottom: var(--vspace-5);
+    background-color: var(--color-gray-6);
+}
 
+.s-features .row {
+    display: flex;
+    flex-wrap: nowrap; /* Colunas e imagem lado a lado */
+    align-items: flex-start; /* Alinha ao topo por padrão */
+}
 
+.s-features .column.lg-12 {
+    width: 100%; /* Título ocupa largura total */
+}
+
+.s-features .column.lg-4 {
+    width: 100%; /* Colunas ocupam largura total do container */
+    margin-bottom: var(--vspace-1); /* Espaçamento entre colunas */
+    text-align: left; /* Textos alinhados à esquerda */
+}
+
+.s-features .row > .column.lg-4 {
+    flex: 0 0 60%; /* Colunas ocupam 60% à esquerda */
+    display: flex;
+    flex-direction: column; /* Empilha colunas verticalmente */
+    max-width: 600px; /* Limita largura para legibilidade */
+}
+
+.s-features .row img {
+    flex: 0 0 35%; /* Imagem ocupa 35% à direita */
+    max-width: 400px; /* Limita tamanho máximo */
+    height: auto;
+    border-radius: var(--border-radius); /* Raio padrão do template */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: 0 0 0 var(--vspace-1); /* Espaçamento à esquerda */
+    align-self: center; /* Centraliza imagem verticalmente */
+}
+
+/* Responsividade: empilhar tudo verticalmente em telas menores */
+@media screen and (max-width: 800px) {
+    .s-features .row {
+        flex-direction: column; /* Empilha colunas e imagem */
+        align-items: flex-start; /* Alinha à esquerda */
+    }
+
+    .s-features .row > .column.lg-4 {
+        flex: 0 0 100%; /* Colunas ocupam largura total */
+        max-width: 600px; /* Limita largura */
+    }
+
+    .s-features .row img {
+        flex: 0 0 100%; /* Imagem ocupa largura total */
+        max-width: 300px; /* Ajusta tamanho em telas menores */
+        margin: var(--vspace-1) auto; /* Centraliza horizontalmente */
+        align-self: auto; /* Remove centralização vertical */
+    }
+}
+
+/* ===================================================================
+ * # FEATURES
+ *
+ * ------------------------------------------------------------------- */
+.s-features {
+    padding-top: var(--vspace-5);
+    padding-bottom: var(--vspace-5);
+    background-color: var(--color-gray-6);
+}
+
+.s-features .row {
+    display: flex;
+    flex-direction: column; /* Empilha colunas e imagem verticalmente */
+    align-items: flex-start; /* Alinha colunas à esquerda */
+}
+
+.s-features .column.lg-4 {
+    width: 100%; /* Colunas ocupam largura total */
+    max-width: 600px; /* Limita largura para legibilidade */
+    margin-bottom: var(--vspace-1); /* Espaçamento entre colunas */
+    text-align: left; /* Textos alinhados à esquerda */
+}
+
+.s-features .row img {
+    width: 100%;
+    max-width: 800px; /* Limita tamanho da imagem */
+    height: auto;
+    border-radius: var(--border-radius); /* Raio padrão do template */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin: var(--vspace-1) auto; /* Centraliza imagem horizontalmente */
+    display: block; /* Garante centralização */
+}
+
+/* Responsividade: manter layout em telas menores */
+@media screen and (max-width: 800px) {
+    .s-features .row img {
+        width: 100%;
+        max-width: 300px; /* Ajusta tamanho da imagem em telas menores */
+        margin: var(--vspace-1) auto;
+    }
+}
 
 /* ===================================================================
  * # TESTIMONIALS
@@ -4395,8 +4489,8 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 .s-footer {
     background-color : var(--color-gray-19);
-    padding-top      : calc(5.5 * var(--space));
-    padding-bottom   : var(--vspace-3_5);
+    padding-top      : calc(2.2 * var(--space));
+    padding-bottom   : var(--vspace-4.0);
     margin-top       : auto;
     font-weight      : 300;
     color            : rgba(255, 255, 255, 0.4);
@@ -4727,4 +4821,6 @@ img.u-pull-left {
         height : var(--vspace-1_5);
         width  : var(--vspace-1_5);
     }
+    
+
 }
