@@ -1,0 +1,959 @@
+<scene upAxis="y" unitType="meters" formatVersion="1.0" minOgreVersion="1.8" author="Scol_Assimp_Exporter">
+    <environnement>
+        <ColourAmbient r="0.25" g="0.25" b="0.25"/>
+        <ColourBackground r="0" g="0" b="0"/>
+    </environnement>
+    <nodes>
+        <node name="Sketchfab_model0" id="1" isTarget="false">
+            <scale x="0.002741" y="0.002741" z="0.002741"/>
+            <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+            <position x="0.000000" y="0.000000" z="0.000000"/>
+            <node name="currentmodel.wrl.cleaner.materialmerger.gles1" id="2" isTarget="false">
+                <scale x="1.000000" y="1.000000" z="1.000000"/>
+                <rotation qx="0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+                <position x="0.000000" y="0.000000" z="0.000000"/>
+                <node name="Object_22" id="3" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_23" id="5" meshFile="meshes/Object_23.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_35" id="6" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_36" id="8" meshFile="meshes/Object_36.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_48" id="9" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_49" id="11" meshFile="meshes/Object_49.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_511" id="12" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_512" id="14" meshFile="meshes/Object_512.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_614" id="15" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_615" id="17" meshFile="meshes/Object_615.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_891"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_717" id="18" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_718" id="20" meshFile="meshes/Object_718.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_882"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_820" id="21" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_821" id="23" meshFile="meshes/Object_821.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_923" id="24" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_924" id="26" meshFile="meshes/Object_924.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1026" id="27" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1027" id="29" meshFile="meshes/Object_1027.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1129" id="30" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1130" id="32" meshFile="meshes/Object_1130.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1232" id="33" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1233" id="35" meshFile="meshes/Object_1233.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_833"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1335" id="36" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1336" id="38" meshFile="meshes/Object_1336.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_833"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1438" id="39" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1439" id="41" meshFile="meshes/Object_1439.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_891"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1541" id="42" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1542" id="44" meshFile="meshes/Object_1542.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_891"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1644" id="45" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1645" id="47" meshFile="meshes/Object_1645.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_891"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1747" id="48" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1748" id="50" meshFile="meshes/Object_1748.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1850" id="51" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1851" id="53" meshFile="meshes/Object_1851.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_1953" id="54" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_1954" id="56" meshFile="meshes/Object_1954.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2056" id="57" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2057" id="59" meshFile="meshes/Object_2057.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2159" id="60" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2160" id="62" meshFile="meshes/Object_2160.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_744"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2262" id="63" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2263" id="65" meshFile="meshes/Object_2263.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_744"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2365" id="66" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2366" id="68" meshFile="meshes/Object_2366.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_891"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2468" id="69" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2469" id="71" meshFile="meshes/Object_2469.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2571" id="72" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2572" id="74" meshFile="meshes/Object_2572.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2674" id="75" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2675" id="77" meshFile="meshes/Object_2675.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2777" id="78" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2778" id="80" meshFile="meshes/Object_2778.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2880" id="81" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2881" id="83" meshFile="meshes/Object_2881.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_2983" id="84" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_2984" id="86" meshFile="meshes/Object_2984.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_3086" id="87" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_3087" id="89" meshFile="meshes/Object_3087.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_3189" id="90" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_3190" id="92" meshFile="meshes/Object_3190.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_3292" id="93" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_3293" id="95" meshFile="meshes/Object_3293.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_3395" id="96" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_3396" id="98" meshFile="meshes/Object_3396.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_882"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_3498" id="99" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_3499" id="101" meshFile="meshes/Object_3499.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_891"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_35101" id="102" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_35102" id="104" meshFile="meshes/Object_35102.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_36104" id="105" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_36105" id="107" meshFile="meshes/Object_36105.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_37107" id="108" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_37108" id="110" meshFile="meshes/Object_37108.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_38110" id="111" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_38111" id="113" meshFile="meshes/Object_38111.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_39113" id="114" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_39114" id="116" meshFile="meshes/Object_39114.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_40116" id="117" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_40117" id="119" meshFile="meshes/Object_40117.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_41119" id="120" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_41120" id="122" meshFile="meshes/Object_41120.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_42122" id="123" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_42123" id="125" meshFile="meshes/Object_42123.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_43125" id="126" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_43126" id="128" meshFile="meshes/Object_43126.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_44128" id="129" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_44129" id="131" meshFile="meshes/Object_44129.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_45131" id="132" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_45132" id="134" meshFile="meshes/Object_45132.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_46134" id="135" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_46135" id="137" meshFile="meshes/Object_46135.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_47137" id="138" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_47138" id="140" meshFile="meshes/Object_47138.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_48140" id="141" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_48141" id="143" meshFile="meshes/Object_48141.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_49143" id="144" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_49144" id="146" meshFile="meshes/Object_49144.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_50146" id="147" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_50147" id="149" meshFile="meshes/Object_50147.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_51149" id="150" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_51150" id="152" meshFile="meshes/Object_51150.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_446"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_52152" id="153" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_52153" id="155" meshFile="meshes/Object_52153.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_53155" id="156" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_53156" id="158" meshFile="meshes/Object_53156.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_54158" id="159" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_54159" id="161" meshFile="meshes/Object_54159.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_55161" id="162" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_55162" id="164" meshFile="meshes/Object_55162.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_56164" id="165" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_56165" id="167" meshFile="meshes/Object_56165.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_57167" id="168" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_57168" id="170" meshFile="meshes/Object_57168.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_58170" id="171" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_58171" id="173" meshFile="meshes/Object_58171.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_59173" id="174" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_59174" id="176" meshFile="meshes/Object_59174.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_60176" id="177" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_60177" id="179" meshFile="meshes/Object_60177.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_61179" id="180" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_61180" id="182" meshFile="meshes/Object_61180.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_62182" id="183" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_62183" id="185" meshFile="meshes/Object_62183.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_63185" id="186" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_63186" id="188" meshFile="meshes/Object_63186.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_64188" id="189" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_64189" id="191" meshFile="meshes/Object_64189.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_65191" id="192" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_65192" id="194" meshFile="meshes/Object_65192.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_66194" id="195" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_66195" id="197" meshFile="meshes/Object_66195.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_67197" id="198" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_67198" id="200" meshFile="meshes/Object_67198.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_68200" id="201" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_68201" id="203" meshFile="meshes/Object_68201.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_69203" id="204" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_69204" id="206" meshFile="meshes/Object_69204.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_70206" id="207" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_70207" id="209" meshFile="meshes/Object_70207.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_71209" id="210" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_71210" id="212" meshFile="meshes/Object_71210.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_72212" id="213" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_72213" id="215" meshFile="meshes/Object_72213.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_73215" id="216" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_73216" id="218" meshFile="meshes/Object_73216.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_74218" id="219" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_74219" id="221" meshFile="meshes/Object_74219.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_75221" id="222" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_75222" id="224" meshFile="meshes/Object_75222.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_76224" id="225" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_76225" id="228" meshFile="meshes/Object_76225.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_197"/>
+                            <subentity index="1" materialName="centrifugal_pump_material_197"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_77228" id="229" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_77229" id="231" meshFile="meshes/Object_77229.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_78231" id="232" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_78232" id="234" meshFile="meshes/Object_78232.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_891"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_79234" id="235" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_79235" id="237" meshFile="meshes/Object_79235.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_168"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_80237" id="238" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_80238" id="240" meshFile="meshes/Object_80238.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_81240" id="241" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_81241" id="243" meshFile="meshes/Object_81241.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_82243" id="244" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_82244" id="246" meshFile="meshes/Object_82244.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_83246" id="247" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_83247" id="249" meshFile="meshes/Object_83247.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_84249" id="250" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_84250" id="252" meshFile="meshes/Object_84250.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_85252" id="253" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_85253" id="255" meshFile="meshes/Object_85253.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_86255" id="256" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_86256" id="258" meshFile="meshes/Object_86256.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_87258" id="259" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_87259" id="261" meshFile="meshes/Object_87259.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_88261" id="262" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_88262" id="264" meshFile="meshes/Object_88262.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_891"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_89264" id="265" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_89265" id="267" meshFile="meshes/Object_89265.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_90267" id="268" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_90268" id="270" meshFile="meshes/Object_90268.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_91270" id="271" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_91271" id="273" meshFile="meshes/Object_91271.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_92273" id="274" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_92274" id="276" meshFile="meshes/Object_92274.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_930"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_93276" id="277" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_93277" id="279" meshFile="meshes/Object_93277.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_94279" id="280" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_94280" id="282" meshFile="meshes/Object_94280.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_715"/>
+                        </subentities>
+                    </entity>
+                </node>
+                <node name="Object_95282" id="283" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <entity name="Object_95283" id="285" meshFile="meshes/Object_95283.mesh" castShadows="1">
+                        <subentities>
+                            <subentity index="0" materialName="centrifugal_pump_material_168"/>
+                        </subentities>
+                    </entity>
+                </node>
+            </node>
+        </node>
+    </nodes>
+</scene>

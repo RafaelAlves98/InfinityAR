@@ -1,0 +1,132 @@
+material "centrifugal_pump_material_930"
+{
+	technique centrifugal_pump_material_930_technique
+	{
+		pass centrifugal_pump_material_930_standard
+		{
+			cull_hardware none
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.00000000 0.00000000 0.00000000 1.00000000 39.99999619
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}
+material "centrifugal_pump_material_891"
+{
+	technique centrifugal_pump_material_891_technique
+	{
+		pass centrifugal_pump_material_891_standard
+		{
+			cull_hardware none
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.00000000 0.00000000 0.00000000 1.00000000 39.99999619
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}
+material "centrifugal_pump_material_882"
+{
+	technique centrifugal_pump_material_882_technique
+	{
+		pass centrifugal_pump_material_882_standard
+		{
+			cull_hardware none
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.00000000 0.00000000 0.00000000 1.00000000 39.99999619
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}
+material "centrifugal_pump_material_833"
+{
+	technique centrifugal_pump_material_833_technique
+	{
+		pass centrifugal_pump_material_833_standard
+		{
+			cull_hardware none
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.00000000 0.00000000 0.00000000 1.00000000 39.99999619
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}
+material "centrifugal_pump_material_744"
+{
+	technique centrifugal_pump_material_744_technique
+	{
+		pass centrifugal_pump_material_744_standard
+		{
+			cull_hardware none
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.00000000 0.00000000 0.00000000 1.00000000 39.99999619
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}
+material "centrifugal_pump_material_715"
+{
+	technique centrifugal_pump_material_715_technique
+	{
+		pass centrifugal_pump_material_715_standard
+		{
+			cull_hardware none
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.00000000 0.00000000 0.00000000 1.00000000 39.99999619
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}
+material "centrifugal_pump_material_446"
+{
+	technique centrifugal_pump_material_446_technique
+	{
+		pass centrifugal_pump_material_446_standard
+		{
+			cull_hardware none
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.00000000 0.00000000 0.00000000 0.30000001 39.99999619
+			emissive 0.00000000 0.00000000 0.00000000 0.30000001
+
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}
+material "centrifugal_pump_material_197"
+{
+	technique centrifugal_pump_material_197_technique
+	{
+		pass centrifugal_pump_material_197_standard
+		{
+			cull_hardware none
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.00000000 0.00000000 0.00000000 1.00000000 39.99999619
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}
+material "centrifugal_pump_material_168"
+{
+	technique centrifugal_pump_material_168_technique
+	{
+		pass centrifugal_pump_material_168_standard
+		{
+			cull_hardware none
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.00000000 0.00000000 0.00000000 0.40000001 39.99999619
+			emissive 0.00000000 0.00000000 0.00000000 0.40000001
+
+			scene_blend alpha_blend
+			depth_write off
+		}
+	}
+}

@@ -1,0 +1,984 @@
+<scene upAxis="y" unitType="meters" formatVersion="1.0" minOgreVersion="1.8" author="Scol_Assimp_Exporter">
+    <environnement>
+        <ColourAmbient r="0.25" g="0.25" b="0.25"/>
+        <ColourBackground r="0" g="0" b="0"/>
+    </environnement>
+    <nodes>
+        <node name="RootNode0" id="1" isTarget="false">
+            <scale x="1.000000" y="1.000000" z="1.000000"/>
+            <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+            <position x="0.000000" y="0.000000" z="0.000000"/>
+            <node name="Camera1" id="2" isTarget="false">
+                <scale x="99.999992" y="100.000008" z="99.999992"/>
+                <rotation qx="-0.150301" qy="0.639788" qz="-0.059672" qw="0.254008"/>
+                <position x="6.416145" y="4.958309" z="6.317362"/>
+                <camera name="Camera1" id="2" fov="0.614321">
+                    <clipping near="10.000000" far="10000.000000"/>
+                </camera>
+            </node>
+            <node name="Light2" id="3" isTarget="false">
+                <scale x="100.000000" y="100.000008" z="99.999977"/>
+                <rotation qx="0.403721" qy="-0.192454" qz="-0.534488" qw="-0.119555"/>
+                <position x="3.133499" y="5.903862" z="-1.613883"/>
+                <light name="Light2" id="3" type="point" castShadows="0">
+                    <colourDiffuse r="1000" g="1000" b="1000"/>
+                    <colourSpecular r="1000" g="1000" b="1000"/>
+                    <lightAttenuation range="249999.984375" constant="1.000000" linear="0.000000" quadratic="0.000000"/>
+                </light>
+            </node>
+            <node name="Sketchfab_model3" id="4" isTarget="false">
+                <scale x="100.000000" y="99.999992" z="99.999992"/>
+                <rotation qx="-0.707107" qy="0.000000" qz="0.000000" qw="0.707107"/>
+                <position x="0.000000" y="0.000000" z="0.000000"/>
+                <node name="currentmodel.wrl.cleaner.materialmerger.gles4" id="5" isTarget="false">
+                    <scale x="1.000000" y="1.000000" z="1.000000"/>
+                    <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                    <position x="0.000000" y="0.000000" z="0.000000"/>
+                    <node name="Object_105" id="6" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_106" id="8" meshFile="meshes/Object_106.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_118" id="9" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_119" id="11" meshFile="meshes/Object_119.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_1211" id="12" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_1212" id="14" meshFile="meshes/Object_1212.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_1314" id="15" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_1315" id="17" meshFile="meshes/Object_1315.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_1417" id="18" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_1418" id="20" meshFile="meshes/Object_1418.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_1520" id="21" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_1521" id="23" meshFile="meshes/Object_1521.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_1623" id="24" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_1624" id="26" meshFile="meshes/Object_1624.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_1726" id="27" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_1727" id="29" meshFile="meshes/Object_1727.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_1829" id="30" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_1830" id="32" meshFile="meshes/Object_1830.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_1932" id="33" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_1933" id="35" meshFile="meshes/Object_1933.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_235" id="36" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_236" id="38" meshFile="meshes/Object_236.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2038" id="39" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2039" id="41" meshFile="meshes/Object_2039.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2141" id="42" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2142" id="44" meshFile="meshes/Object_2142.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2244" id="45" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2245" id="47" meshFile="meshes/Object_2245.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2347" id="48" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2348" id="50" meshFile="meshes/Object_2348.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2450" id="51" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2451" id="53" meshFile="meshes/Object_2451.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2553" id="54" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2554" id="56" meshFile="meshes/Object_2554.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2656" id="57" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2657" id="59" meshFile="meshes/Object_2657.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2759" id="60" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2760" id="62" meshFile="meshes/Object_2760.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2862" id="63" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2863" id="65" meshFile="meshes/Object_2863.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_2965" id="66" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_2966" id="68" meshFile="meshes/Object_2966.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_368" id="69" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_369" id="71" meshFile="meshes/Object_369.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3071" id="72" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3072" id="74" meshFile="meshes/Object_3072.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3174" id="75" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3175" id="77" meshFile="meshes/Object_3175.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3277" id="78" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3278" id="80" meshFile="meshes/Object_3278.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3380" id="81" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3381" id="83" meshFile="meshes/Object_3381.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3483" id="84" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3484" id="86" meshFile="meshes/Object_3484.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3586" id="87" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3587" id="89" meshFile="meshes/Object_3587.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3689" id="90" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3690" id="92" meshFile="meshes/Object_3690.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3792" id="93" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3793" id="95" meshFile="meshes/Object_3793.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3895" id="96" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3896" id="98" meshFile="meshes/Object_3896.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_3998" id="99" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_3999" id="101" meshFile="meshes/Object_3999.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_4101" id="102" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_4102" id="104" meshFile="meshes/Object_4102.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_40104" id="105" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_40105" id="107" meshFile="meshes/Object_40105.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_41107" id="108" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_41108" id="110" meshFile="meshes/Object_41108.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_42110" id="111" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_42111" id="113" meshFile="meshes/Object_42111.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_43113" id="114" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_43114" id="116" meshFile="meshes/Object_43114.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_44116" id="117" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_44117" id="119" meshFile="meshes/Object_44117.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_45119" id="120" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_45120" id="122" meshFile="meshes/Object_45120.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_46122" id="123" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_46123" id="125" meshFile="meshes/Object_46123.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_47125" id="126" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_47126" id="128" meshFile="meshes/Object_47126.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_48128" id="129" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_48129" id="131" meshFile="meshes/Object_48129.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_49131" id="132" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_49132" id="134" meshFile="meshes/Object_49132.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_5134" id="135" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_5135" id="137" meshFile="meshes/Object_5135.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_50137" id="138" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_50138" id="140" meshFile="meshes/Object_50138.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_51140" id="141" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_51141" id="144" meshFile="meshes/Object_51141.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_Materiais.0011"/>
+                                <subentity index="1" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_52144" id="145" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_52145" id="147" meshFile="meshes/Object_52145.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_53147" id="148" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_53148" id="150" meshFile="meshes/Object_53148.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_54150" id="151" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_54151" id="153" meshFile="meshes/Object_54151.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_55153" id="154" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_55154" id="156" meshFile="meshes/Object_55154.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_56156" id="157" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_56157" id="159" meshFile="meshes/Object_56157.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_57159" id="160" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_57160" id="162" meshFile="meshes/Object_57160.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_58162" id="163" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_58163" id="165" meshFile="meshes/Object_58163.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_59165" id="166" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_59166" id="168" meshFile="meshes/Object_59166.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_6168" id="169" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_6169" id="171" meshFile="meshes/Object_6169.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_60171" id="172" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_60172" id="174" meshFile="meshes/Object_60172.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_61174" id="175" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_61175" id="177" meshFile="meshes/Object_61175.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_62177" id="178" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_62178" id="180" meshFile="meshes/Object_62178.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_63180" id="181" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_63181" id="183" meshFile="meshes/Object_63181.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_64183" id="184" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_64184" id="186" meshFile="meshes/Object_64184.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_65186" id="187" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_65187" id="189" meshFile="meshes/Object_65187.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_66189" id="190" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_66190" id="192" meshFile="meshes/Object_66190.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_67192" id="193" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_67193" id="195" meshFile="meshes/Object_67193.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_68195" id="196" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_68196" id="198" meshFile="meshes/Object_68196.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_69198" id="199" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_69199" id="201" meshFile="meshes/Object_69199.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_7201" id="202" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_7202" id="204" meshFile="meshes/Object_7202.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_70204" id="205" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_70205" id="207" meshFile="meshes/Object_70205.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_71207" id="208" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_71208" id="210" meshFile="meshes/Object_71208.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_72210" id="211" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_72211" id="213" meshFile="meshes/Object_72211.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_73213" id="214" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_73214" id="216" meshFile="meshes/Object_73214.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_74216" id="217" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_74217" id="219" meshFile="meshes/Object_74217.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_75219" id="220" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_75220" id="222" meshFile="meshes/Object_75220.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_76222" id="223" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_76223" id="226" meshFile="meshes/Object_76223.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                                <subentity index="1" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_77226" id="227" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_77227" id="229" meshFile="meshes/Object_77227.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_78229" id="230" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_78230" id="232" meshFile="meshes/Object_78230.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_79232" id="233" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_79233" id="236" meshFile="meshes/Object_79233.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_Material.0042"/>
+                                <subentity index="1" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_8236" id="237" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_8237" id="239" meshFile="meshes/Object_8237.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_80239" id="240" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_80240" id="242" meshFile="meshes/Object_80240.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_81242" id="243" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_81243" id="245" meshFile="meshes/Object_81243.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_82245" id="246" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_82246" id="248" meshFile="meshes/Object_82246.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_83248" id="249" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_83249" id="251" meshFile="meshes/Object_83249.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_84251" id="252" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_84252" id="254" meshFile="meshes/Object_84252.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_85254" id="255" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_85255" id="257" meshFile="meshes/Object_85255.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_86257" id="258" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_86258" id="260" meshFile="meshes/Object_86258.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_87260" id="261" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_87261" id="263" meshFile="meshes/Object_87261.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_88263" id="264" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_88264" id="266" meshFile="meshes/Object_88264.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_89266" id="267" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_89267" id="269" meshFile="meshes/Object_89267.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_9269" id="270" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_9270" id="272" meshFile="meshes/Object_9270.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_90272" id="273" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_90273" id="275" meshFile="meshes/Object_90273.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_91275" id="276" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_91276" id="278" meshFile="meshes/Object_91276.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_92278" id="279" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_92279" id="281" meshFile="meshes/Object_92279.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_93281" id="282" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_93282" id="284" meshFile="meshes/Object_93282.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_94284" id="285" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_94285" id="287" meshFile="meshes/Object_94285.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_material_850"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                    <node name="Object_95287" id="288" isTarget="false">
+                        <scale x="1.000000" y="1.000000" z="1.000000"/>
+                        <rotation qx="0.000000" qy="0.000000" qz="0.000000" qw="1.000000"/>
+                        <position x="0.000000" y="0.000000" z="0.000000"/>
+                        <entity name="Object_95288" id="290" meshFile="meshes/Object_95288.mesh" castShadows="1">
+                            <subentities>
+                                <subentity index="0" materialName="BombaNaoTranslucida_Material.0042"/>
+                            </subentities>
+                        </entity>
+                    </node>
+                </node>
+            </node>
+        </node>
+    </nodes>
+</scene>
