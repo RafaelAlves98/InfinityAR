@@ -1,0 +1,39 @@
+material "BombaNaoTranslucida_material_850"
+{
+	technique BombaNaoTranslucida_material_850_technique
+	{
+		pass BombaNaoTranslucida_material_850_standard
+		{
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.80000001 0.80000001 0.80000001 1.00000000 3.99999952
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}
+material "BombaNaoTranslucida_Materiais.0011"
+{
+	technique BombaNaoTranslucida_Materiais.0011_technique
+	{
+		pass BombaNaoTranslucida_Materiais.0011_standard
+		{
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.03934744 0.05424887 0.80002296 1.00000000 6.25000000
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}
+material "BombaNaoTranslucida_Material.0042"
+{
+	technique BombaNaoTranslucida_Material.0042_technique
+	{
+		pass BombaNaoTranslucida_Material.0042_standard
+		{
+			ambient vertexcolour
+			diffuse vertexcolour
+			specular 0.80000001 0.80000001 0.80000001 1.00000000 6.25000000
+			emissive 0.00000000 0.00000000 0.00000000 1.00000000
+		}
+	}
+}

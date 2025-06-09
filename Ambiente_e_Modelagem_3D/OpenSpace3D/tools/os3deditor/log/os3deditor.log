@@ -1,0 +1,35 @@
+OpenSpace3D Editor : 1.93.1 (Wed Jan  8 05:36:50 2025)
+> Init default scene.
+> Importing Ogre scene file : assets/models/converted/centrifugal_pump/centrifugal_pump.scene
+> Scene loaded.
+> Axis warning not found! : default_light
+> Axis warning not found! : 97.light
+> Axis warning not found! : 2.currentmodel.wrl.cleaner.materialmerger.gles1
+> Init default scene.
+> Importing Ogre scene file : assets/models/converted/BombaNaoTranslucida/BombaNaoTranslucida.scene
+> Scene loaded.
+> Axis warning not found! : 3.Light2
+> Axis warning not found! : 2.Camera1
+> Axis warning not found! : 5.currentmodel.wrl.cleaner.materialmerger.gles4
+> Axis warning! : 4.Sketchfab_model3 call from axis: 1.RootNode0
+> Axis warning! : 4.Sketchfab_model3 call from axis: 100.light
+> Axis warning! : 4.Sketchfab_model3 call from axis: 100.light
+> Axis warning not found! : 100.light
+> Axis warning! : 4.Sketchfab_model3 call from axis: 1.RootNode0
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning! : 4.Sketchfab_model3 call from axis: default_camera
+> Axis warning not found! : default_light
+> Axis warning! : 4.Sketchfab_model3 call from axis: default_camera
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> Axis warning not found! : default_light
+> The scene has been successfully saved to bomba_centrifuga.xos.
