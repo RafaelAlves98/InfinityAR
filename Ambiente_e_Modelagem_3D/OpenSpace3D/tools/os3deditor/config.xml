@@ -1,4 +1,4 @@
-<config language="english" author="OpenSpace3D+editor+configuration+file">
+<config language="portuguese%2dBrazil" author="OpenSpace3D+editor+configuration+file">
     <OS3Dmain>
         <width value="1920"/>
         <height value="1009"/>
@@ -14,5 +14,15 @@
         <bShowInfos value="0"/>
         <bAutoFit value="0"/>
         <bWireMode value="0"/>
+        <importer_split value="1"/>
+        <importer_smooth value="0"/>
+        <importer_optim value="1"/>
+        <importer_optimgraph value="0"/>
+        <importer_optimtex value="0"/>
+        <importer_lod value="0"/>
+        <importer_rotatex value="0"/>
+        <importer_scale value="1%2e000000"/>
+        <plugits_user_level value="1"/>
+        <lastproject value="bomba%5fcentrifuga%2exos"/>
     </OS3Duser>
 </config>

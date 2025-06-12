@@ -1,2 +1,2 @@
 _load "tools/os3dplayer/os3dload.pkg"
-main "bomba_centrifuga.xos" "" "1280" "720" 0
+main "bomba_centrifuga.xos" "bomba_centrifuga" "1280" "720" 0
